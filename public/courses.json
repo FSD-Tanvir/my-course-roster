@@ -5,7 +5,7 @@
         "title": "Introduction to C Programming",
         "description": "Get started with C programming. Explore key concepts and practical applications in this introductory course.",
         "price": 49.99,
-        "credit": 3
+        "credit": 4
     },
     {   
         "id": "2",
@@ -13,7 +13,7 @@
         "title": "Introduction to Algorithms",
         "description": "Master fundamental algorithms and data structures. Build responsive websites and create interactive web applications.",
         "price": 29.99,
-        "credit": 2
+        "credit": 3
     },
     {   
         "id": "3",
@@ -29,7 +29,7 @@
         "title": "Basic Data Structures",
         "description": "Explore fundamental data structures. Learn digital marketing strategies to boost your online presence.",
         "price": 34.99,
-        "credit": 2
+        "credit": 5
     },
     {   
         "id": "5",
@@ -45,7 +45,7 @@
         "title": "Software Engineering",
         "description": "Learn software engineering principles. Plan your financial future with investing, budgeting, and retirement planning.",
         "price": 54.99,
-        "credit": 2.5
+        "credit": 4.5
     },
     {   
         "id": "7",
@@ -53,7 +53,7 @@
         "title": "AWS, Cloud Computing",
         "description": "Explore AWS and cloud computing. Unleash your creativity by developing writing skills and crafting compelling stories and poems.",
         "price": 24.99,
-        "credit": 1.5
+        "credit": 3.5
     },
     {   
         "id": "8",
@@ -61,7 +61,7 @@
         "title": "Database (MySQL)",
         "description": "Master MySQL and database management. Capture moments like a pro with photography fundamentals, from composition to editing.",
         "price": 19.99,
-        "credit": 1
+        "credit": 2.5
     },
     {
         "id": "9",
@@ -69,7 +69,7 @@
         "title": "Problem-Solving Part",
         "description": "Enhance your problem-solving skills. Find inner peace through yoga and meditation techniques to reduce both stress and anxiety.",
         "price": 29.99,
-        "credit": 1.5
+        "credit": 2.5
     }
 ]
 
