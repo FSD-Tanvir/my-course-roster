@@ -3,6 +3,8 @@ import "./App.css";
 import Enrolled from "./components/Enrolled";
 import Header from "./components/Header";
 import Courses from "./components/courses";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const [selected, setSelected] = useState([]);
@@ -16,18 +18,23 @@ function App() {
     let totalCredit = course.credit;
 
     if (isExist) {
-      return;
+      return toast("Already Selected!");
     } else {
       selected.forEach((item) => {
         totalPrice = totalPrice + item.price;
         totalCredit = totalCredit + item.credit;
       });
-      let remaining = 20 - totalCredit;
-      const newSelection = [...selected, course];
-      setSelected(newSelection);
-      setTotalPrice(totalPrice);
-      setTotalCredit(totalCredit);
-      setRemaining(remaining);
+
+      if (totalCredit > 20) {
+        return toast("Can't select over 20 credit, try another");
+      } else {
+        let remaining = 20 - totalCredit;
+        const newSelection = [...selected, course];
+        setSelected(newSelection);
+        setTotalPrice(totalPrice);
+        setTotalCredit(totalCredit);
+        setRemaining(remaining);
+      }
     }
   };
 
@@ -42,6 +49,7 @@ function App() {
           totalCredit={totalCredit}
           remaining={remaining}
         ></Enrolled>
+        <ToastContainer></ToastContainer>
       </div>
     </>
   );
