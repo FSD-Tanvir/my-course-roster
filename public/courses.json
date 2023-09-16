@@ -1,0 +1,76 @@
+[
+    {   
+        "id": "1",
+        "cover": "https://i.ibb.co/s2vVfVz/Rectangle-2.png",
+        "title": "Introduction to C Programming",
+        "description": "Get started with C programming. Explore key concepts and practical applications in this introductory course.",
+        "price": 49.99,
+        "credit": 3
+    },
+    {   
+        "id": "2",
+        "cover": "https://i.ibb.co/pyzdyhF/Rectangle-2-1.png",
+        "title": "Introduction to Algorithms",
+        "description": "Master fundamental algorithms and data structures. Build responsive websites and create interactive web applications.",
+        "price": 29.99,
+        "credit": 2
+    },
+    {   
+        "id": "3",
+        "cover": "https://i.ibb.co/Xb48GjF/Rectangle-2-2.png",
+        "title": "Introduction to C++ for DSA",
+        "description": "Learn C++ for data structures and algorithms. Analyze data, make data-driven decisions, and gain valuable insights.",
+        "price": 39.99,
+        "credit": 2.5
+    },
+    {   
+        "id": "4",   
+        "cover": "https://i.ibb.co/pyzWFp6/Rectangle-3.png",
+        "title": "Basic Data Structures",
+        "description": "Explore fundamental data structures. Learn digital marketing strategies, SEO, and social media marketing to boost your online presence.",
+        "price": 34.99,
+        "credit": 2
+    },
+    {   
+        "id": "5",
+        "cover": "https://i.ibb.co/D7mfRXG/Rectangle-2-3.png",
+        "title": "Introduction to OOP Python",
+        "description": "Become a Python pro with object-oriented programming. Code, debug, and build real-world applications with Python.",
+        "price": 44.99,
+        "credit": 3
+    },
+    {   
+        "id": "6",
+        "cover": "https://i.ibb.co/hmnvxK9/Rectangle-2-4.png",
+        "title": "Software Engineering",
+        "description": "Learn software engineering principles. Plan your financial future with investing, budgeting, and retirement planning.",
+        "price": 54.99,
+        "credit": 2.5
+    },
+    {   
+        "id": "7",
+        "cover": "https://i.ibb.co/fxxSzjj/Rectangle-3-1.png",
+        "title": "AWS, Cloud Computing",
+        "description": "Explore AWS and cloud computing. Unleash your creativity by developing writing skills and crafting compelling stories and poems.",
+        "price": 24.99,
+        "credit": 1.5
+    },
+    {   
+        "id": "8",
+        "cover": "https://i.ibb.co/N3XwKHz/Rectangle-2-5.png",
+        "title": "Database (MySQL)",
+        "description": "Master MySQL and database management. Capture moments like a pro with photography fundamentals, from composition to editing.",
+        "price": 19.99,
+        "credit": 1
+    },
+    {
+        "id": "9",
+        "cover": "https://i.ibb.co/MfZR30c/Rectangle-2-6.png",
+        "title": "Problem-Solving Part",
+        "description": "Enhance your problem-solving skills. Find inner peace through yoga and meditation techniques to reduce stress and anxiety.",
+        "price": 29.99,
+        "credit": 1.5
+    }
+]
+
+  

@@ -1,11 +1,18 @@
-import './App.css'
+import "./App.css";
+import Enrolled from "./components/Enrolled";
+import Header from "./components/Header";
+import Courses from "./components/courses";
 
 function App() {
   return (
     <>
-      <h1 className='text-4xl font-bold text-center py-8'>Course Registration</h1>
+      <Header></Header>
+      <div className="md:flex gap-3">
+        <Courses></Courses>
+        <Enrolled></Enrolled>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
