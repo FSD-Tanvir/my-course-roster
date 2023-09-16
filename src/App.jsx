@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import Enrolled from "./components/Enrolled";
 import Header from "./components/Header";
-import Courses from "./components/courses";
+import Courses from "./components/Courses";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
